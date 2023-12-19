@@ -5,9 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ![screenshot](./doc/example.png)
 
 This is a widget for rendering a RSS feed into your pages. To use it, add an "embed" bloc to your page, pointing
-to the url `https://notion-widget-rss.vercel.app/?sources=<COMA_SEPARATED_SOURCES>`
-
-My personal feed is based on the following url `https://notion-widget-rss.vercel.app/?sources=https://www.reddit.com/user/tvvann/m/dev/.rss,https://www.joshwcomeau.com/rss.xml,https://kentcdodds.com/blog/rss.xml,https://overreacted.io/rss.xml,https://jaredpalmer.com/rss.xml,https://blog.isquaredsoftware.com/index.xml,https://www.lilobase.me/rss,https://ntcoding.medium.com/feed`.
+to the url `https://notion-embed-rss-aescastros-projects.vercel.app/?sources=<COMA_SEPARATED_SOURCES>`
 
 ## For developers
 
