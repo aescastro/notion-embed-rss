@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001 --openssl-legacy-provider",
-    "build": "next --openssl-legacy-provider build",
+    "dev": "next dev -p 3001",
+    "build": "next build",
     "start": "next --openssl-legacy-provider start",
     "test": "jest"
   },
