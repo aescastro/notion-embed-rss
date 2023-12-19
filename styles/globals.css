@@ -15,22 +15,44 @@ body {
   background: #fff;
 }
 
-.light {
-  --color-background: #fff;
-  --color-text: #3F3C36;
-  --color-text-reverse: #EEEEEE;
-  --color-border: #E3E3E2;
-  --color-error: crimson;
-  --color-accent: darkslateblue;
+@media (prefers-color-scheme: dark) {
+  .none {
+    --color-background: #191919;
+    --color-text: #EEEEEE;
+    --color-text-reverse: #19191A;
+    --color-border: #575C5D;
+    --color-error: salmon;
+    --color-accent: rgb(255, 255, 255);
+  }
+
+  .light {
+    --color-background: #fff;
+    --color-text: #3F3C36;
+    --color-text-reverse: #EEEEEE;
+    --color-border: #E3E3E2;
+    --color-error: crimson;
+    --color-accent: #191919;
+  }
 }
 
-.dark {
-  --color-background: #353C3F;
-  --color-text: #EEEEEE;
-  --color-text-reverse: #3F3C36;
-  --color-border: #575C5D;
-  --color-error: salmon;
-  --color-accent: aquamarine;
+@media (prefers-color-scheme: light) {
+  .none {
+    --color-background: #fff;
+    --color-text: #3F3C36;
+    --color-text-reverse: #EEEEEE;
+    --color-border: #E3E3E2;
+    --color-error: crimson;
+    --color-accent: #191919;
+  }
+
+  .dark {
+    --color-background: #191919;
+    --color-text: #EEEEEE;
+    --color-text-reverse: #19191A;
+    --color-border: #575C5D;
+    --color-error: salmon;
+    --color-accent: rgb(255, 255, 255);
+  }
 }
 
 .mono {
