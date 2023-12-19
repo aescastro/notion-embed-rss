@@ -6,6 +6,18 @@
     overflow-y: auto;
 }
 
+.feedsWidget::-webkit-scrollbar {
+    width: 10px;
+}
+
+.feedsWidget::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+.feedsWidget::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+}
+
 .feedsWidget ul {
     display: grid;
     grid-gap: 20px;

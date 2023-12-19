@@ -23,6 +23,8 @@ body {
     --color-border: #575C5D;
     --color-error: salmon;
     --color-accent: rgb(255, 255, 255);
+    --scrollbar-track: #202020;
+    --scrollbar-thumb: #545555;
   }
 
   .light {
@@ -32,6 +34,8 @@ body {
     --color-border: #E3E3E2;
     --color-error: crimson;
     --color-accent: #191919;
+    --scrollbar-track: #EDECE9;
+    --scrollbar-thumb: #AEACA6;
   }
 }
 
@@ -43,6 +47,8 @@ body {
     --color-border: #E3E3E2;
     --color-error: crimson;
     --color-accent: #191919;
+    --scrollbar-track: #EDECE9;
+    --scrollbar-thumb: #AEACA6;
   }
 
   .dark {
@@ -52,6 +58,8 @@ body {
     --color-border: #575C5D;
     --color-error: salmon;
     --color-accent: rgb(255, 255, 255);
+    --scrollbar-track: #202020;
+    --scrollbar-thumb: #545555;
   }
 }
 
