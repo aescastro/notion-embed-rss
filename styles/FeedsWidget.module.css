@@ -2,6 +2,8 @@
     background: var(--color-background);
     color: var(--color-text);
     padding: 10px;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .feedsWidget ul {

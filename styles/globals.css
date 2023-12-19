@@ -15,10 +15,6 @@ body {
   background: #fff;
 }
 
-#__next, main {
-  height: 100vh;
-  overflow-y: auto;
-}
 @media (prefers-color-scheme: dark) {
   .none, .dark {
     --color-background: #191919;
