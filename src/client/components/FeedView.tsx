@@ -9,9 +9,13 @@ interface FeedViewProps {
 }
 
 export const FeedView = ({ feed }: FeedViewProps) => (
-  <li className={styles.feed}>
-    <h2>{feed.title}</h2>
+  console.log(feed.title),
+  feed.items.length > 0 ?
+    <li className={styles.feed}>
+      <h2>{feed.title}</h2>
 
-    {feed.items.length > 0 ? <FeedItemsView feed={feed} /> : <EmptyFeedView />}
-  </li>
+      <FeedItemsView feed={feed} />
+    </li>  
+  :
+    <></>
 );
