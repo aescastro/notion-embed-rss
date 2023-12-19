@@ -24,7 +24,8 @@ body {
     --color-error: salmon;
     --color-accent: rgb(255, 255, 255);
     --scrollbar-track: #202020;
-    --scrollbar-thumb: #545555;
+    --scrollbar-thumb: #474C50;
+    --scrollbar-thumb-hover: #545555;
   }
 
   .light {
@@ -35,7 +36,8 @@ body {
     --color-error: crimson;
     --color-accent: #191919;
     --scrollbar-track: #EDECE9;
-    --scrollbar-thumb: #AEACA6;
+    --scrollbar-thumb: #D3D1CB;
+    --scrollbar-thumb-hover: #AEACA6;
   }
 }
 

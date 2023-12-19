@@ -18,6 +18,10 @@
     background: var(--scrollbar-thumb);
 }
 
+.feedsWidget::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
 .feedsWidget ul {
     display: grid;
     grid-gap: 20px;
