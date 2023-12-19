@@ -16,7 +16,7 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-  .none, .dark {
+  .system, .dark {
     --color-background: #191919;
     --color-text: #EEEEEE;
     --color-text-reverse: #19191A;
@@ -40,7 +40,7 @@ body {
 }
 
 @media (prefers-color-scheme: light) {
-  .none, .light {
+  .system, .light {
     --color-background: #fff;
     --color-text: #3F3C36;
     --color-text-reverse: #EEEEEE;
