@@ -26,7 +26,7 @@ export class BuildFeeds {
   async execute({
     sources,
     font = "default",
-    theme = "none",
+    theme = "light",
     sinceDays = 14,
   }: BuildFeedsOptions) {
     if (!sources) return this.redirect(302, INSTRUCTIONS_PAGE);
