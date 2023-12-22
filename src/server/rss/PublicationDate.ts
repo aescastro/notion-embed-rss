@@ -1,7 +1,7 @@
 import { format, isAfter, isValid, parse, parseISO } from "date-fns";
 
 export class PublicationDate {
-  private readonly value: Date | null;
+  public readonly value: Date | null;
 
   constructor(dateInRandomFormat: string) {
     const parsingAttempts = [

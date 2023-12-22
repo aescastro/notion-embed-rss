@@ -26,6 +26,7 @@ export class FeedItem {
       title: this.title,
       link: this.link,
       publicationDate: this.publicationDate.display(),
+      date: this.publicationDate?.value ? +this.publicationDate?.value : -1,
     };
   }
 }
