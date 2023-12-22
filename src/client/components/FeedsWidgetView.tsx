@@ -1,5 +1,5 @@
 import styles from "../../../styles/FeedsWidget.module.css";
-import { Result } from "../../shared/Result";
+import { Result, Success } from "../../shared/Result";
 import { Font, Theme } from "../../shared/Theme";
 
 import { RefreshButton } from "./RefreshButton";
